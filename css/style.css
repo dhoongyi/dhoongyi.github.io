@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+:root{
+    --primary-color: #f4f4db;
+    --secondary-color: #407C87;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    /* width: 100vw; */
+    font-family: 'Encode Sans', sans-serif;
+    /* background-color: #222; */
+    overflow-x: hidden;
+}
+/* Start Header Section */
+/* Start Nav Bar Section  */
+.sticky-top{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    /* padding: 10px 20px; */
+    /* left:; */
+}
+.contact-infos{
+    width: 100%;
+    /* padding: 10px; */
+    /* margin: 0; */
+}
+.navs{
+    /* background: linear-gradient(120deg,#1FA2FF,#12D8FA,#A6FFCB); */
+    background-color: #d3e1e2;
+    /* padding-top: 10px; */
+    margin-top: 40px
+}
+.navhovers:hover{
+    font-weight: bold;
+    opacity: 0.7;
+}
+.infos{
+    /* background-color: #02AAB0; */
+    background-color: #407c87;
+    color: #222 !important;
+}
+.phoneicons{
+    transform: rotate(120deg);
+    cursor: pointer;
+    user-select: none;
+}
+.social-medias{
+    margin-right: 20px;
+}
+.social-medias i:nth-of-type(1),
+.social-medias i:nth-of-type(2),
+.social-medias i:nth-of-type(3),
+.social-medias i:nth-of-type(4){
+    cursor: pointer;
+    margin-left: 15px;
+    /* padding: 0 10px; */
+    display: inline-block;
+}
+.barsbtn{
+    float: right;
+}
+.pf-drop{
+    background-color: #407C87;
+    color: #fff;
+
+    margin-right: 20px;
+
+    position: relative;
+}
+.pfmenu{
+    width: 70px;
+    background: #f4f4f4;
+    /* margin-right: 50px; */
+
+    position: absolute;
+    right: 0;
+}
+/* End Nav Bar Section */
+/* End Header Section  */
+/* Start Banners Section */
+.banners{
+    height: 90vh;
+
+    /* background-image:url('./../assets/img/banner/banner11.jpg'); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.banner-headers{
+    color: #fff;
+
+    font-size: 4vw;
+    font-family: sans-serif;
+
+    padding: 10px 20px;
+
+    border: 5px dashed #fff;
+}
+.banner-params{
+    width: 900px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* End Banners Section */
+/* Start Booking Section */
+.bookings{
+    margin-top: -70px;
+}
+.bookings-bg{
+    background-color: #def4e4;
+}
+.form-control:focus{
+    outline: none;
+    border: none;
+}
+.form-group,.form-button{
+    margin: 10px;
+}
+.form-button{
+    width: 50%;
+}
+.form-button button{
+    width: 200px;
+    background-color: #f4f4bd !important;
+    color: #000 !important;
+    outline: 0;
+    border: 0;
+    margin-left: 40px;
+
+    transition: all .5s;
+}
+@media (max-width:600px){
+    .form-button button{
+        margin-left:-40px;
+    
+    }
+}
+.form-button button:hover{
+    outline: 0;
+    background-color: #b48b8b !important;
+}
+.form-search input{
+    width: 310px;
+}
+/* End Booking Section */
+/* Start Our Rooms Section  */
+.imgcontainers{
+    width: 250px;
+    overflow: hidden;
+    background-color: #f4f4bd;
+
+    transition: all .6s;
+
+}
+.imgs:hover{
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+/* End Our Rooms Section */
+/* Start Service Section  */
+.service-container .row{
+    padding: 0 10px;
+}
+.services{
+    /* min-width: 300px;
+    max-width: 400px; */
+    /* width: 300px;
+    height: 200px; */
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 0 10px #777;
+
+    /* flex-wrap: nowrap; */
+}
+.service-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    position: relative;
+}
+.service-cards .service-icons{
+    border: 2px solid var(--secondary-color);
+    padding: 10px;
+    background-color: #fff;
+    color: var(--secondary-color);
+
+    position: absolute;
+    top: -38px;
+
+    transform: rotate(45deg);
+
+    transition: all .7s;
+
+}
+.service-icons i{
+    transform: rotate(-45deg);
+}
+.service-cards:hover .service-icons{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+.services:hover{
+    transform: translateY(-10px);
+    border-bottom: 10px solid var(--secondary-color);
+
+}
+.service-btns{
+    background-color: transparent;
+    color: var(--secondary-color);
+    padding: 5px 10px;
+    margin: 20px 0;
+    border: 1px solid var(--secondary-color);
+    font-weight: bold;
+
+    transition: all .7s;
+}
+.service-btns:hover{
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+/* End Service Section  */
+
+/* Start Our Partners Section */
+.partners{
+    padding: 30px 20px;
+}
+.content-quotes{
+    position: relative;
+}
+.fa-quotes{
+    position: absolute;
+    top: 20%;
+}
+.fa-quote-left{
+    left: -30px;
+}
+.fa-quote-right{
+    right: -30px;
+}
+.progress{
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(orange,red);
+    box-shadow: 0 0 3px #fff;
+
+    animation-name: progressani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.content-titles{
+    font-family: 'Raleway', sans-serif;
+}
+.content-role{
+    font-family: 'Raleway', sans-serif;
+
+}
+.content-params{
+    font-family: 'Raleway', sans-serif;
+}
+@keyframes progressani{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+/* End Our Partners Section */
+/* Start Blog Section */
+/* .blogs{
+    background: linear-gradient(45deg,#f1c40f,#e67e22,#e74c3c);
+} */
+.blog-posts{
+    background-color: #d3e1e2;
+    /* padding: 10px; */
+    border-radius: 5px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+    user-select: none;
+
+    cursor: pointer;
+}
+/* End Our Blog Section */
+/* Start adv Section */
+.divider{
+    color: #fff;
+}
+/* End adv Section */
+
+
+
+
+
+
+/* Start Chat Box */
+.chat-btn{
+    width: 50px;
+    height: 50px;
+    background-color: #407C87;
+    color: #f4f4f4;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: .8;
+}
+.chat-popup{
+    border: 3px solid #f1f1f1;
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+
+    z-index: 10;
+
+    display: none;
+}
+.form-container{
+    max-width: 300px;
+    background-color: #fff;
+
+    padding: 10px;
+}
+.form-container textarea{
+    width: 100%;
+    background-color: #f1f1f1;
+    border: none;
+
+    resize: none;
+    margin: 5px auto;
+}
+.form-container textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.form-container .btns{
+    width: 100%;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+
+    margin-bottom: 10px;
+    opacity: .8;
+    cursor: pointer;
+}
+.form-container .btns:nth-of-type(2){
+    background-color: red;
+}
+
+.form-container .btns:hover{
+    opacity: 1;
+}
+
+.messages{
+    min-height: 300px;
+    overflow-y: scroll;
+}
+
+.bg-grey{
+    background-color: #ddd;
+}
+
+.time-right{
+    float: right;
+    color: #aaa;
+}
+.time-left{
+    float: left;
+    color: #aaa;
+}
+
+.containers::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+/* End Chat Box */
+
+/* Start ADV Text Box Section */
+.advtextboxes{
+    width: 100vw;
+    height: 400px;
+    background-image: url('./../assets/img/banner/banner11.jpg');
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    transition: all .5s ease-in;
+}
+.advtextboxes:hover{
+    animation-name: bganis;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    /* animation-fill-mode: backwards; */
+}
+.advtexts{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+
+    background-color: rgba(255,255,255,0.8);
+    color: #000;
+    padding: 30px;
+
+    mix-blend-mode: screen;
+    /* background-clip: text; */
+}
+
+@keyframes bganis{
+    0%{
+        background-image: url('./../assets/img/banner/banner11.jpg');
+    }
+    50%{
+        background-image: url('./../assets/img/banner/banner12.jpg');
+    }
+    100%{
+        background-image: url('./../assets/img/banner/banner8.jpg');
+    }
+}
+/* End ADV Text Box Section */
+
+/* Start Staff Section */
+.staffboxes{
+    width: 250px;
+    border: 1px solid #ddd;
+
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+}
+.staff-imgs{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.staff-contacts{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+.staff-contacts i{
+    font-size: 25px;
+    cursor: pointer;
+}
+.staff-contacts i:hover,.contact-btns:hover{
+    opacity: 0.9;
+}
+.contact-btns{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    
+    text-align: center;
+    padding: 10px 0;
+}
+/* .contact-btns:hover{
+    opacity: 0.7;
+} */
+/* End Staff Section */
+
+/* Start Property Section */
+.list-inline{
+    user-select: none;
+}
+.property-lists{
+    text-decoration: none;
+
+    transition: all .5s;
+}
+.list-inline-item:hover .property-lists{
+    color: #222 !important;
+    font-size: calc(100% + 2px);
+    font-weight: 600;
+}
+.property-lists.active-items{
+    color: #000 !important;
+    font-weight: 900;
+}
+
+.filimgboxes{
+    gap: 5px;
+
+    /* overflow: hidden; */
+
+    /* transition: all 1s; */
+}
+.filters{
+    width: 200px;
+
+    overflow: hidden;
+
+    transition: all 1s;
+}
+.filters img:hover{
+    transform: scale(1.2);
+}
+/* End Property Section */
+
+/* Start About Us Section */
+.tabboxes{
+    width: 100%;
+    background-color: steelblue;
+    /* border-radius: 10px; */
+
+    padding: 40px 30px;
+    display: none;
+    /* padding-bottom: ; */
+
+    border-bottom: 2px solid gray;
+}
+.tabboxes.active{
+    display: block;
+}
+.tabs p .contact-icons{
+    margin-right: 10px;
+}
+.tabbtnboxes{
+    width: 100%;
+    background-color: #fff;
+}
+.tabbtns{
+    width: 25%;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 0;
+    outline: 0;
+
+    cursor: pointer;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.tabbtns:hover{
+    background-color: #777;
+}
+.aboutus-containers{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.contactus-btns{
+    width: 100%;
+    background-color: transparent;
+    color: #333;
+
+    border: 1px solid #777;
+    outline: 0;
+
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+
+    transition: all .5s;
+}
+.contactus-btns:hover{
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+}
+textarea[id='msg']{
+    resize: none;
+    overflow-y: scroll;
+}
+/* End About Us Section */
+
+
+/* Start Pricing Section */
+.pricingbtns{
+    cursor: pointer;
+    margin: 5px 0;
+
+    border-radius: 5px;
+}
+.pricingbtns:hover{
+    opacity: 0.9;
+}
+/* End Pricing Section  */
+
+
+/* Start Footer Section */
+
+/* End Footer Section */

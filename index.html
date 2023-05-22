@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AungChaungThar Hotel</title>
+        <!-- fav icon -->
+        <link href="./assets/img/fav/favicon.png" rel="icon" type="image/*"/>
+        <!-- bootstrap css1 js1 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <!-- font awesome css1 -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Magnific popup  -->
+        <link href="./assets/libs/magnific-popup-master/dist/magnific-popup.css" rel="stylesheet" type="text/css">
+        <!-- custom css -->
+        <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <!-- Start Header Section -->
+        <header class="mx-auto">
+            <!-- Start Contact Info Section -->
+            <div class="bg-dark">
+                <div class="d-flex justify-content-between p-2 text-light fw-bold sticky-top infos contact-infos">
+                    <span><i class="fas fa-phone phoneicons"></i> +95 9 787 9583 76</span>
+    
+                    <div class="social-medias">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linked"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- End Contact Info Section -->
+            <!-- Start Nav Bar -->
+            <!-- <div class="container-fluid"> -->
+                <nav class="navbar navbar-expand-md mx-auto navs">
+
+                    <div class="container-fluid">
+
+                        <button type="button" class="navbar-toggler barsbtn" data-bs-toggle="collapse" data-bs-target="#mainnav"><i class="fas fa-bars"></i></button>
+    
+                        <div class="navbar-collapse collapse ms-3" id="mainnav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="javascript:void(0);" class="nav-link navhovers">Home</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" class="nav-link navhovers">Room</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" class="nav-link navhovers">Restaurant</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" class="nav-link navhovers">Contact</a></li>
+                                <li class="nav-item"><a href="javascript:void(0);" class="nav-link navhovers dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#faq">FAQ</a>
+                                    <div class="dropdown">
+                                        <ul class="dropdown-menu" id="faq">
+                                            <li><a href="javascript:void(0);" class="dropdown-item">How to Booking?</a></li>
+                                            <li><a href="javascript:void(0);" class="dropdown-item">How to take a room key?</a></li>
+                                            <li><a href="javascript:void(0);" class="dropdown-item">How can we contact with manager?</a></li>
+                                            <li><a href="javascript:void(0);" class="dropdown-item">What are the services?</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown float-sm-end pfdrop">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-target="#pfdropdown">
+                                <img src="./assets/img/users/user1.jpg" class="rounded-circle mx-4" width="32" alt="user1">
+
+                                <ul id="pfdropdown" class="dropdown-menu text-center pfmenu">
+                                    <li class="dropdown-item small">Ms.MJ</li>
+                                    <hr class="dropdown-divider"/>
+                                    <li class="dropdown-item small">See all profiles</li>
+                                    <li class="dropdown-item small">Log Out</li>
+                                </ul>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            <!-- </div> -->
+            <!-- End Nav Bar -->
+            
+        </header>
+        <!-- End Header Section -->
+        <!-- Start Banner Section -->
+        <section>
+            <div class="container-fluid p-0">
+                <div class="banners">
+
+                    <span class="mb-5 banner-headers">Aung Chaung Thar Hotel</span>
+                    <p class="text-center text-light banner-params">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, non sequi natus facere eligendi quas fuga dolorem, odio quis cumque minus pariatur labore delectus voluptatum iusto aut expedita. Aliquid, perferendis.</p>
+
+                </div>
+            </div>
+        </section>
+        <!-- End Banner Section -->
+
+        
+        
+        
+
+        <!-- Start Booking Section -->
+        <section class="bookings" id="booking">
+            <div class="container bookings-bg rounded p-2">
+                <form action="" method="">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="booking-start">Start Date</label>
+                                <input type="date" name="booking-start" id="booking-start" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="booking-end">End Date</label>
+                                <input type="date" name="booking-end" id="booking-end" class="form-control">
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-6 col-sm-12">
+                            <div class="form-group">
+                                <select name="mem" id="mem" class="form-select">
+                                    <option value="1">1 Adult</option>
+                                    <option value="2">2 Adult</option>
+                                    <option value="3">3 Adult</option>
+                                    <option value="4">4 Adult</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="d-flex">
+                                        <div class="form-group form-search">
+                                            <input type="text" name="search" id="search" class="form-control" placeholder="Search room...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="d-grid form-button">
+                                        <button type="submit" class="btn btn-primary text-light fw-bold">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <select name="mem" id="mem" class="form-select">
+                                    <option value="1">1 Adult</option>
+                                    <option value="2">2 Adult</option>
+                                    <option value="3">3 Adult</option>
+                                    <option value="4">4 Adult</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-md-6 col-sm-12">
+                                    <div class="d-flex">
+                                        <div class="form-group form-search">
+                                            <input type="text" name="search" id="search" class="form-control" placeholder="Search room...">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-grid form-button">
+                                        <button type="submit" class="btn btn-primary text-light fw-bold">Search</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- End Booking Section -->
+        <!-- Start Our Rooms Section -->
+        <section id="rooms" class="py-10">
+            <div class="container">
+                <!-- start title -->
+                <div class="row text-center">
+                    <h3 class="text-muted">Our Room Decorations</h3>
+                    <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laborum illo sunt suscipit, voluptatibus cumque fugiat molestias cupiditate ex reiciendis ut, deserunt maiores quo impedit distinctio a! Error, incidunt ratione.</p>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image1.jpg" class="magnific-popups"><img src="./assets/img/gallery/image1.jpg" width="250" class="imgs" alt="image1"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image2.jpg" class="magnific-popups"><img src="./assets/img/gallery/image2.jpg" width="250" class="imgs" alt="image2"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image3.jpg" class="magnific-popups"><img src="./assets/img/gallery/image3.jpg" width="250" class="imgs" alt="image3"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image4.jpg" class="magnific-popups"><img src="./assets/img/gallery/image4.jpg" width="250" class="imgs" alt="image4"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image5.jpg" class="magnific-popups"><img src="./assets/img/gallery/image5.jpg" width="250" class="imgs" alt="image5"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image6.jpg" class="magnific-popups"><img src="./assets/img/gallery/image6.jpg" width="250" class="imgs" alt="image6"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image7.jpg" class="magnific-popups"><img src="./assets/img/gallery/image7.jpg" width="250" class="imgs" alt="image7"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image8.jpg" class="magnific-popups"><img src="./assets/img/gallery/image8.jpg" width="250" class="imgs" alt="image8"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image9.jpg" class="magnific-popups"><img src="./assets/img/gallery/image9.jpg" width="250" class="imgs" alt="image9"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image5.jpg" class="magnific-popups"><img src="./assets/img/gallery/image5.jpg" width="250" class="imgs" alt="image5"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image2.jpg" class="magnific-popups"><img src="./assets/img/gallery/image2.jpg" width="250" class="imgs" alt="image2"></a>
+                    </div>
+                    <div class="col-sm-6 col-md-3 text-center mb-4 img-containers">
+                        <a href="./assets/img/gallery/image7.jpg" class="magnific-popups"><img src="./assets/img/gallery/image7.jpg" width="250" class="imgs" alt="image7"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Our Rooms Section -->
+
+        <!-- Start Our Service Section -->
+        <section id="service" class="py-4">
+            <div class="container">
+                <!-- start title -->
+                <div class="row text-center mb-5">
+                    <h3>Our Services</h3>
+                    <p class="small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet esse sapiente rerum ipsam accusantium, reiciendis fuga minima obcaecati, dol</p>
+                </div>
+                <!-- end title -->
+                <!-- <div class="container d-flex">
+
+                    <div class="row d-flex">
+                        <div class="col-sm-12 col-md-4 d-flex services mx-3">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-car fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-3">Airport Transportation</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum, dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisic assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 col-md-4 d-flex services mx-3">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-clock fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-3">quick check in/out</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum culpa quibusdam minus non fugiat! Itaque modi harum assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-12 col-md-4 d-flex services mx-3">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-building fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-3">Airport Transportation</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum, dolor sit amet consectetur nobis culpa quibusdam minus non fugiat! Itaque modi harum assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+            <div class="container service-container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="services mb-5">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-car fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-5">Airport Transportation</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum, dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisic assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="services mb-5">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-clock fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-5">quick check in/out</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum, dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisic assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="services mb-5">
+                            <div class="service-cards">
+                                <div class="service-icons">
+                                    <i class="fas fa-building fa-3x"></i>
+                                </div>
+                                <div class="service-contents">
+                                    <h4 class="text-muted text-center text-uppercase fw-bold my-5">24/7 room service</h4>
+                                    <hr>
+                                    <p class="text-center text-muted">Lorem ipsum, dolor sit amet Lorem ipsum dolor sit, amet consectetur adipisic assumenda aut? In, quas velit.</p>
+                                    <div class="d-grid justify-content-center">
+                                        <button type="button" class="rounded service-btns">More Info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+
+                </div>
+            </div>
+        </section>
+        <!-- End Our Service Section -->
+
+        <!-- Start Our Partners Section -->
+        <section id="partner" class="py-3 bg-dark partners">
+            <div class="container">
+                <!-- start title -->
+                <!-- <div class="row">
+                    <div class="col-md-12 text-light">
+                        <h3 class="text-center">Our Partners</h3>
+                        <p class="small text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, ex? Quaerat libero perferendis aperiam! Libero, maiores corporis v</p>
+                    </div>
+                </div> -->
+                <!-- end title  -->
+
+                <div class="content-quotes">
+                    <div class="text-light quotes">
+                        <i class="fas fa-quote-left fa-2x fa-quotes"></i>
+                        <i class="fas fa-quote-right fa-2x fa-quotes"></i>
+                    </div>
+                    <div class="text-light content-container">
+                        <h3 class="text-center my-5 content-titles">V47 Fashion</h3>
+                        <p class="text-center content-role">Our Outlet</p>
+                        <p class="text-center small content-params">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt cupiditate maxime deleniti quos, similique vitae, sapiente aspernatur iusto temporibus architecto cumque voluptate esse, quasi eum nobis iste doloribus repudiandae libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit odit vero, velit ipsa voluptatibus modi amet beatae culpa exercitationem impedit soluta quasi laborum explicabo omnis tenetur pariatur architecto saepe voluptates.</p>
+                    </div>
+                    <div class="progress">
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Partner Section -->
+
+
+        <!-- Start Our Blog Section -->
+        <section id="blog" class="py-5 blogs">
+            <!-- start title -->
+            <div class="container">
+
+                <div class="row blog-rows">
+                    <div class="col-md-4">
+                        <div class="overflow-hidden blog-posts my-sm-2">
+                            <div>
+                                <img src="./assets/img/gallery/home5.jpg" width="100%" alt="">
+                                <h4 class="text-center my-4 fw-bold">Blog Post One</h4>
+                                <i class="mx-3">Written By <span class="fw-bold">Ms.MJ</span></i>
+                            </div>
+                            <div class="p-2">
+                                <hr/>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam, iure fugit quidem dolore aperiam, tenetur sed ea voluptatum voluptas ipsum expedita nobis possimus delectus! Asperiores, delectus animi. Ullam, itaque?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="overflow-hidden blog-posts my-sm-2">
+                            <div>
+                                <img src="./assets/img/gallery/home4.jpg" width="100%" alt="">
+                                <h4 class="text-center my-4 fw-bold">Blog Post Two</h4>
+                                <i class="mx-3">Written By <span class="fw-bold">Ms.Honey</span></i>
+                            </div>
+                            <div class="p-2">
+                                <hr/>
+                                <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, quas beatae? Totam tempore rem unde nobis natus veritatis provident, perspiciatis nemo dignissimos reiciendis magni harum alias, possimus debitis eos vero?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="overflow-hidden blog-posts my-sm-2">
+                            <div>
+                                <img src="./assets/img/gallery/home3.jpg" width="100%" alt="">
+                                <h4 class="text-center my-4 fw-bold">Blog Post Three</h4>
+                                <i class="mx-3">Written By <span class="fw-bold">Ms.SAUNG</span></i>
+                            </div>
+                            <div class="p-2">
+                                <hr/>
+                                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolor nostrum dolore illum adipisci, exercitationem, deserunt magni officia corporis aliquid quasi voluptas earum aut quisquam saepe sapiente expedita amet lajsgoiejroigjorisgj </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- end title -->
+        </section>
+        <!-- End Our Blog Section -->
+
+        <!-- Start ADV Section -->
+        <section id="adv" class="py-3">
+            <div class="container">
+                <div class="row adv-container">
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-danger text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-hiking fa-3x"></i></span>
+                            <h3 class="text-light">Activities</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-dark text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-spa fa-3x"></i></span>
+                            <h3 class="text-light">Spa & Wellness</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-danger text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-crown fa-3x"></i></span>
+                            <h3 class="text-light">Wedding & Romance</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-dark text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-image fa-3x"></i></span>
+                            <h3 class="text-light">Masterpieces Art</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-danger text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-credit-card fa-3x"></i></span>
+                            <h3 class="text-light">VIP Payment</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 p-3">
+                        <div class="bg-dark text-center rounded-2 p-3">
+                            <span class="text-light"><i class="fas fa-coffee fa-3x"></i></span>
+                            <h3 class="text-light">Luxury Collection</h3>
+                            <hr class="divider"/>
+                            <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, laborum! Ratione mollitia nesciunt odio culpa fuga soluta, totam aperiam deserunt possimus animi maxime voluptatum neque tenetur quo optio ea impedit?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End ADV Section -->
+
+        
+        <!-- Start ADV Text Box Section -->
+        <section class="text-light advtextboxes">
+            <h2 class="text-uppercase lead advtexts">Love the nature</h2>
+            <p class="text-capitalize lead advtexts">@at hotel</p>
+        </section>
+        <!-- End ADV Text Box Section -->
+
+        <!-- Start Staff Section -->
+        <section id="staffs" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="staffboxes">
+                            <img src="./assets/img/users/user1.jpg" class="staff-imgs" alt="user1"/>
+                            <h4 class="text-center fw-bold">Ms.MJ</h4>
+                            <p class="text-center fw-bold text-muted">CEO & Founder</p>
+                            <p class="text-center fw-bold text-muted">Havard University</p>
+                            <div class="staff-contacts">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <button type="button" class="fw-bold mt-3 contact-btns">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="staffboxes">
+                            <img src="./assets/img/users/user2.jpg" class="staff-imgs" alt="user2.jpg"/>
+                            <h4 class="text-center fw-bold">Mr.John Snow</h4>
+                            <p class="text-center fw-bold text-muted">CO Founder</p>
+                            <p class="text-center fw-bold text-muted">Califonia University</p>
+                            <div class="staff-contacts">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <button type="button" class="fw-bold mt-3 contact-btns">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="staffboxes">
+                            <img src="./assets/img/users/user3.jpg" class="staff-imgs" alt="user3.jpg"/>
+                            <h4 class="text-center fw-bold">Ms.Honey</h4>
+                            <p class="text-center fw-bold text-muted">Director</p>
+                            <p class="text-center fw-bold text-muted">Oxford University</p>
+                            <div class="staff-contacts">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <button type="button" class="fw-bold mt-3 contact-btns">Contact</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="staffboxes">
+                            <img src="./assets/img/users/feedback-5.jpg" class="staff-imgs" alt="feedback.jpg"/>
+                            <h4 class="text-center fw-bold">Mg Mg Kyaw</h4>
+                            <p class="text-center fw-bold text-muted">Hotel Manager</p>
+                            <p class="text-center fw-bold text-muted">Stragy First University</p>
+                            <div class="staff-contacts">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <button type="button" class="fw-bold mt-3 contact-btns">Contact</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Staff Section -->
+
+        <!-- Start Property Section -->
+        <section id="property" class="my-5">
+            <div class="container">
+                <!-- start title -->
+                <div class="row mb-3">
+                    <div class="col">
+                        <h4 class="text-center text-dark fw-bold h3">Property</h4>
+                        <p class="text-center text-muted text-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias quos</p>
+                    </div>
+                </div>
+                <!-- end title -->
+                <div class="d-flex justify-content-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="javascript:void(0);" class="text-muted text-uppercase property-lists active-items" list-data="filters">All</a> <span class="mx-2">/</span></li>
+                        <li class="list-inline-item"><a href="javascript:void(0);" class="text-muted text-uppercase property-lists" list-data="room">Room</a> <span class="mx-2">/</span></li>
+                        <li class="list-inline-item"><a href="javascript:void(0);" class="text-muted text-uppercase property-lists" list-data="decoration">Decoration</a> <span class="mx-2">/</span></li>
+                        <li class="list-inline-item"><a href="javascript:void(0);" class="text-muted text-uppercase property-lists" list-data="furniture">Furniture</a> <span class="mx-2">/</span></li>
+                        <li class="list-inline-item"><a href="javascript:void(0);" class="text-muted text-uppercase property-lists" list-data="office">Office</a></li>
+                    </ul>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap justify-content-center align-items-center filimgboxes">
+                        <div class="filters decoration"><img src="./assets/img/gallery/home1.jpg" width="200" alt="home1"></div>
+                        <div class="filters decoration"><img src="./assets/img/gallery/home2.jpg" width="200" alt="home1"></div>
+                        <div class="filters home"><img src="./assets/img/gallery/home3.jpg" width="200" alt="home1"></div>
+                        <div class="filters home"><img src="./assets/img/gallery/home4.jpg" width="200" alt="home1"></div>
+                        <div class="filters home"><img src="./assets/img/gallery/home5.jpg" width="200" alt="home1"></div>
+                        <div class="filters room"><img src="./assets/img/gallery/image8.jpg" width="200" alt="home1"></div>
+                        <div class="filters room"><img src="./assets/img/gallery/image1.jpg" width="200" alt="home1"></div>
+                        <div class="filters room"><img src="./assets/img/gallery/image2.jpg" width="200" alt="home1"></div>
+                        <div class="filters furniture"><img src="./assets/img/gallery/image3.jpg" width="200" alt="home1"></div>
+                        <div class="filters furniture"><img src="./assets/img/gallery/image4.jpg" width="200" alt="home1"></div>
+                        <div class="filters furniture"><img src="./assets/img/gallery/image5.jpg" width="200" alt="home1"></div>
+                        <div class="filters office"><img src="./assets/img/gallery/image6.jpg" width="200" alt="home1"></div>
+                        <div class="filters office"><img src="./assets/img/gallery/image7.jpg" width="200" alt="home1"></div>
+                        <div class="filters office"><img src="./assets/img/gallery/image9.jpg" width="200" alt="image9"></div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Property Section -->
+
+        <!-- Start Contact Us Section -->
+        <section id="contactus" class="bg-dark py-5 my-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div id="phone" class="tabboxes phone active">
+                            <div class="tabs">
+                                <h3>Phone</h3>
+                                <p><i class="fas fa-phone contact-icons"></i>+959787958376</p>
+                                <p><i class="fas fa-phone contact-icons"></i>+959970504234</p>
+                            </div>
+                        </div>
+
+                        <div id="social" class="tabboxes social">
+                            <div class="tabs">
+                                <h3>Social</h3>
+                                <p><i class="fab fa-viber contact-icons"></i>@aungchaungthar</p>
+                                <p><i class="fab fa-line contact-icons"></i>@aungchaungthar</p>
+                            </div>
+                        </div>
+
+                        <div id="website" class="tabboxes website">
+                            <div class="tabs">
+                                <h3>Websites</h3>
+                                <p><i class="fas fa-link contact-icons"></i>www.aungchaungthar@admin.com</p>
+                                <p><i class="fas fa-envelope contact-icons"></i>admin_aungchaungthar@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div id="address" class="tabboxes address">
+                            <div class="tabs">
+                                <h3>Address</h3>
+                                <p><i class="fas fa-map-marker-alt contact-icons"></i>No.107,Between 102 & 103 St,</p>
+                                <p>Mandalay,Myanmar</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <button type="button" class="tabbtns" onclick="contactus('phone',event,'steelblue')">Phone</button>
+                            <button type="button" class="tabbtns" onclick="contactus('social',event,'slateblue')">Social</button>
+                            <button type="button" class="tabbtns" onclick="contactus('website',event,'skyblue')">Website</button>
+                            <button type="button" class="tabbtns" onclick="contactus('address',event,'gray')">Address</button>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="aboutus-containers">
+                            <form action="" method="">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="fw-bold text-center py-3">Please fill out this form to contact us</h3>
+                                        <hr/>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="firstname" id="firstname" class="form-control rounded-0" placeholder="Firstname..."/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="lastname" id="lastname" class="form-control rounded-0" placeholder="Lastname..."/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control rounded-0" placeholder="Email..."/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="tel" name="phone" id="phone" class="form-control rounded-0" placeholder="Phone..."/>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="msg" id="msg" class="form-control rounded-0" rows="3" placeholder="Message..."></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <div class="d-grid">
+                                            <button type="submit" class="text-center fw-bold contactus-btns">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Contact Us Section -->
+
+        <!-- Start Pricing Section -->
+        <section id="pricing" class="py-5">
+            <div class="container">
+                <!-- start title -->
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="fw-bold">Our Pricing</h3>
+                        <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <!-- end title -->
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-dark">
+                                <h4 class="text-light text-center">Single Room</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <span>100 $</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Wifi</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Parking</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Massage</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Spa</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Pool</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Fitness Center</li>
+                                    <li class="list-group-item bg-dark text-light pricingbtns">Checkout</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="text-center fw-bold">Airport Transportation Free</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-dark">
+                                <h4 class="text-light text-center">Deluxe Room</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <span>400 $</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Wifi</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Parking</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Massage</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Spa</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Pool</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Fitness Center</li>
+                                    <li class="list-group-item bg-dark text-light fw-bold pricingbtns">Checkout</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="text-center fw-bold">Airport Transportation Free</h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-dark">
+                                <h4 class="text-light text-center">Family Room</h4>
+                            </div>
+                            <div class="card-body text-center">
+                                <span>700 $</span>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                                <ul class="list-group">
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Wifi</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Parking</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Massage</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Spa</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Pool</li>
+                                    <li class="list-group-item"><i class="fas fa-check"></i> Fitness Center</li>
+                                    <li class="list-group-item bg-dark text-light pricingbtns">Checkout</li>
+                                </ul>
+                            </div>
+                            <div class="card-footer">
+                                <h5 class="text-center fw-bold">Airport Transportation Free</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Pricing Section -->
+
+        <footer id="footer" class="bg-dark text-light text-center py-5">
+            <p><span>&copy;</span> <span class="getyear"></span> Copyright . All rights Reserved. Developed by DhoonGyi</p>
+        </footer>
+
+        <!-- Start Chat Box -->
+        <button type="button" class="chat-btn" onclick="openform()"><i class="fas fa-comment-alt"></i></button>
+        <div id="mychat" class="chat-popup">
+            <form class="form-container" action="" method="">
+                <label for="msg"><b>Chat</b></label>
+                <div class="messages">
+                    <div class="containers">
+                        <p>Hello , how can I help you?</p>
+                        <span class="time-right">13:00</span>
+                    </div>
+
+                    <div class="containers bg-grey">
+                        <p>Do you want reserved room?</p>
+                        <span class="time-left">13:01</span>
+                    </div>
+
+                    <div class="containers">
+                        <p>Thanks for your reply!</p>
+                        <span class="time-right">13:01</span>
+                    </div>
+
+                    <div class="containers bg-grey">
+                        <p>Sure! let me seet the price for mountain view.</p>
+                        <span class="time-left">13:01</span>
+                    </div>
+                </div>
+                <textarea name="msg" id="msg" class="" placeholder="Message Here..."></textarea>
+
+                <button type="submit" class="btns">Send</button>
+                <button type="button" class="btns" onclick="closeform()">Close</button>
+            </form>
+        </div>
+        <!-- End Chat Box -->
+
+        
+        
+        <!-- bootstrap css1 js1 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <!-- jquery js1 -->
+        <script src="./assets/libs/jquery-3.6.0/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <!-- magnific pop up -->
+        <script src="./assets/libs/magnific-popup-master/dist/jquery.magnific-popup.min.js" type="text/javascript"></script>
+        <!-- custom js  -->
+        <script src="./js/app.js" type="text/javascript"></script>
+    </body>
+</html>
